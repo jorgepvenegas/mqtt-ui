@@ -1,0 +1,17 @@
+{
+  "name": "mqtt",
+  "version": "0.0.1",
+  "main": "publisher.js",
+  "devDependencies": {},
+  "keywords": [],
+  "author": "jorgepvenegas",
+  "license": "ISC",
+  "description": "",
+  "scripts": {
+    "publish": "node publisher",
+    "subscribe": "node subscriber"
+  },
+  "dependencies": {
+    "mqtt": "^4.2.5"
+  }
+}
